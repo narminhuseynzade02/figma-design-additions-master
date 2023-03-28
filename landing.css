@@ -48,6 +48,7 @@ body {
   justify-content: space-between;
   width: 886px;
   gap: 60px;
+  cursor: pointer;
 }
 .big-box .hero-section .discover-box .input-button div {
   display: flex;
@@ -73,6 +74,7 @@ body {
   color: #ffffff;
   padding: 15px 39px;
   border: 0;
+  cursor: pointer;
 }
 .big-box header {
   display: flex;
@@ -418,6 +420,9 @@ body {
   color: #102746;
   border-bottom: 2px Solid #006dfe;
 }
+.second-part .main-cities {
+  display: flex;
+}
 .second-part .nagoya {
   width: 392px;
   margin-left: 81px;
@@ -433,11 +438,15 @@ body {
   bottom: 0px;
   display: flex;
   gap: 157px;
+  margin-bottom: 3px;
   position: absolute;
   background-color: rgba(21, 24, 36, 0.6);
 }
 .second-part .nagoya .image-wrapper .image-info .nagoya-text {
   font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -446,9 +455,14 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
-.second-part .nagoya .image-wrapper .image-info div p {
+.second-part .nagoya .image-wrapper .image-info .nagoya-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .nagoya .image-wrapper .image-info .nagoya-text-signs p {
   font-family: Lato;
   display: flex;
+  padding-top: 16px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -456,6 +470,273 @@ body {
   text-align: left;
   text-decoration: none;
   color: #ffffff;
+}
+.second-part .nagoya .image-wrapper .image-info .nagoya-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 20px;
+}
+.second-part .niigata {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .niigata .image-wrapper-niigata {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 3px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata .niigata-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata .niigata-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata .niigata-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata .niigata-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 21px;
+}
+.second-part .osaka {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .osaka .image-wrapper-osaka {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 3px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka .osaka-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka .osaka-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka .osaka-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka .osaka-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 26.9px;
+}
+.second-part .other-cities {
+  display: flex;
+}
+.second-part .saitama {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .saitama .image-wrapper-saitama {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 4px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama .saitama-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama .saitama-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama .saitama-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama .saitama-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 18px;
+}
+.second-part .ueno {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .ueno .image-wrapper-ueno {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 4px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno .ueno-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno .ueno-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno .ueno-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno .ueno-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 24px;
+}
+.second-part .shibuya {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .shibuya .image-wrapper-shibuya {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 4px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya .shibuya-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya .shibuya-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya .shibuya-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya .shibuya-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 19px;
 }
 .second-part text {
   width: 391px;
@@ -479,6 +760,7 @@ body {
   padding: 12px 19px;
   color: #ffffff;
   border: 0;
+  cursor: pointer;
 }
 
 .video-section {
