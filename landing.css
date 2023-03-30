@@ -4,21 +4,15 @@
   padding: 0;
 }
 
-body {
-  width: 1440px;
-}
-
 .big-box {
-  width: 1440px;
   background-image: url(./assets/Hero.jpg);
 }
 .big-box .hero-section {
-  width: 1440px;
   padding-top: 94px;
   padding-bottom: 370px;
 }
 .big-box .hero-section .discover-box {
-  width: 886px;
+  width: 61.52%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -32,10 +26,10 @@ body {
   font-size: 50px;
   line-height: 60px;
   color: #ffffff;
-  width: 619px;
+  width: 69.55%;
 }
 .big-box .hero-section .discover-box .more-info {
-  width: 546px;
+  width: 61.54%;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -46,7 +40,6 @@ body {
 .big-box .hero-section .discover-box .input-button {
   display: flex;
   justify-content: space-between;
-  width: 886px;
   gap: 60px;
   cursor: pointer;
 }
@@ -104,11 +97,8 @@ body {
   width: 490px;
 }
 
-.second-part {
-  width: 1440px;
-}
 .second-part .card-section {
-  max-width: 1262px;
+  max-width: 87.63%;
   background-color: #ffffff;
   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
   margin-left: auto;
@@ -116,7 +106,7 @@ body {
   margin-top: -226px;
 }
 .second-part .card-section .container {
-  width: 1062px;
+  width: 84.15%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 98px;
@@ -128,7 +118,7 @@ body {
   font-weight: 500;
   line-height: 42px;
   color: #102746;
-  width: 270px;
+  width: 21.39%;
   margin-bottom: 120px;
 }
 .second-part .card-section .container .card-boxes {
@@ -301,7 +291,6 @@ body {
   gap: 10px;
 }
 .second-part .prefecture-neighborhood-section {
-  width: 1271px;
   margin-right: 84px;
   margin-left: 85px;
   margin-top: 131px;
@@ -312,7 +301,7 @@ body {
   margin-left: 85px;
 }
 .second-part .text h1 {
-  width: 357px;
+  width: 28.01%;
   margin-bottom: 85px;
   margin-right: 293px;
   margin-left: 790px;
@@ -329,7 +318,7 @@ body {
   margin-right: 131px;
   margin-left: 759px;
   margin-top: 85px;
-  width: 519px;
+  width: 40.83%;
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
@@ -339,7 +328,7 @@ body {
   color: #102746;
 }
 .second-part .text h3 {
-  width: 144px;
+  width: 11.32%;
   margin-top: 58px;
   margin-left: 791px;
   margin-right: 591px;
@@ -419,6 +408,10 @@ body {
   text-align: left;
   color: #102746;
   border-bottom: 2px Solid #006dfe;
+}
+.second-part .cities-japan {
+  display: flex;
+  flex-direction: column;
 }
 .second-part .main-cities {
   display: flex;
@@ -806,4 +799,47 @@ footer .inside-footer .menu-footer .footer-columns a {
   line-height: 24px;
   color: #ffffff;
   text-decoration: none;
+}
+
+@media (min-width: 956px) and (max-width: 1425px) {
+  .second-part .cities-japan {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .second-part .main-cities {
+    flex-direction: column;
+  }
+  .second-part .other-cities {
+    flex-direction: column;
+  }
+}
+@media (min-width: 551px) and (max-width: 955px) {
+  .second-part .cities-japan {
+    justify-content: center;
+    align-items: center;
+  }
+  .second-part .main-cities {
+    flex-direction: column;
+  }
+  .second-part .other-cities {
+    flex-direction: column;
+  }
+}
+@media (min-width: 320px) and (max-width: 550px) {
+  .second-part .cities-japan {
+    justify-content: center;
+    align-items: center;
+  }
+  .second-part .cities-japan img {
+    width: 300px;
+  }
+  .second-part .cities-japan p img {
+    width: 15px;
+  }
+  .second-part .main-cities {
+    flex-direction: column;
+  }
+  .second-part .other-cities {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=landing.css.map */
