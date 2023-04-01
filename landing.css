@@ -826,6 +826,9 @@ footer .inside-footer .menu-footer .footer-columns a {
   }
 }
 @media (min-width: 320px) and (max-width: 550px) {
+  .big-box header .navigation .navlinks {
+    display: none;
+  }
   .second-part .cities-japan {
     justify-content: center;
     align-items: center;
@@ -842,7 +845,77 @@ footer .inside-footer .menu-footer .footer-columns a {
   .second-part .other-cities {
     flex-direction: column;
   }
+  .second-part .nagoya {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .second-part .nagoya .image-wrapper .image-info {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .niigata {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .niigata .image-wrapper-niigata .image-info-niigata {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .osaka {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .osaka .image-wrapper-osaka .image-info-osaka {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .saitama {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .saitama .image-wrapper-saitama .image-info-saitama {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .ueno {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .ueno .image-wrapper-ueno .image-info-ueno {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .shibuya {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .shibuya .image-wrapper-shibuya .image-info-shibuya {
     bottom: 0px;
     display: flex;
     gap: 69.5px;
